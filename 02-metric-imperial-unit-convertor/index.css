@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu';
+    text-align: center;
+}
+
+.top-half {
+    align-items: center;
+    background: linear-gradient(45deg, #ED4880, #F38B17);
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    justify-content: space-evenly;
+}
+
+#app-title{
+    font-size: 1.375rem;
+    font-weight: 800;
+}
+
+/* #input-number {
+    font-size: 6rem;
+    font-weight: 800;
+} */
+
+#input-number {
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 5px;
+    text-align: center;
+}
+
+#convert-btn {
+    background: linear-gradient(45deg, #2B75EC, #2EC4DE);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 800;
+    padding: 10px 20px;
+}
+
+.bottom-half {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    justify-content: space-evenly;
+}
+
+/* .holder {
+    
+} */
+
+.unit-title {
+    color: #1A1921;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.convertor {
+    color: #4E4E4E;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
